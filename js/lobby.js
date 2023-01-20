@@ -39,7 +39,7 @@ menuItems.forEach(item => {
         changeActiveItem();
         item.classList.add('active');
         if(item.id== 'community') {
-            document.getElementById('popupaaya').style.visibility="visible";
+//             document.getElementById('popupaaya').style.visibility="visible";
             document.getElementById('notifications-popup').style.visibility="hidden";
             document.getElementById('form__container').style.visibility="hidden";
         }
