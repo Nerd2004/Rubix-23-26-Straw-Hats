@@ -49,6 +49,7 @@ menuItems.forEach(item => {
             // document.getElementById('popupaaya').style.visibility="hidden";
         }
         else if(item.id=='messages-notifications'){
+            document.getElementById('form__container').style.visibility="hidden";
             window.open('https://demochatapp.onrender.com/', '_self');
         }
         else if(item.id =='videochat'){
