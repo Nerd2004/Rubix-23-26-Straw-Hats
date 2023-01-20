@@ -27,7 +27,7 @@
 }
 
 body {
-  background-color: #1a1a1a;
+  background-color: white;
   color: #fff;
 
   font-size: 14px;
@@ -124,7 +124,7 @@ a {
 
 #create__room__btn {
   display: block;
-  background-color: #845695;
+  background-color: rgb(55, 177, 247);
   padding: 8px 24px;
   font-size: 14px;
   font-weight: 500;

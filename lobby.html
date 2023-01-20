@@ -17,9 +17,12 @@
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Toto:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="nav--list">
+    <!-- <div class="nav--list">
         <button id="members__button">
            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 18v1h-24v-1h24zm0-6v1h-24v-1h24zm0-6v1h-24v-1h24z" fill="#ede0e0"><path d="M24 19h-24v-1h24v1zm0-6h-24v-1h24v1zm0-6h-24v-1h24v1z"/></svg>
         </button>
@@ -29,7 +32,20 @@
                 <span>Scale</span>
             </h3>
         </a>
-   </div>
+   </div> -->
+   <div id="topnavbar">
+    <div class="baxa">
+        <h2 class="logo">Scale</h2>
+        <span id="rocket-img"><img id="rocket"width="1px" src="images/rocket.webp" alt=""></span>
+    </div>
+    <DIV >
+        <a id="about" href="about.html">ABOUT</a>
+        <a id="contact" href="#">CONTACT</a>    
+    </DIV>
+    <p id="nav-heading">Discuss Your Thoughts</p>
+    <!-- <div class="contacts">CONTACT US</div>
+    <div class="about">ABOUT US</div> -->
+  </div>
     <div class="leftmeaaneawala">
         <div class="dabba">
             <div class="left">
@@ -45,10 +61,96 @@
                 <div class="sidebar">
                   <a class="menu-item active" id="community">
                     <span><i class="uil uil-bell"></i></span> <h3>Notifications</h3>
+                    <div id="popupaaya">
+                        <div class="hover-blue">
+                            <div class="profile-pic">
+                                <img src="./images/profile-10.jpg" >
+                            </div>
+                            <div class="notification-body">
+                                <b>Abigail Willey</b> accepted your friend request
+                                <small class="text-muted">2 DAYS AGO</small>
+                            </div>
+                        </div>
+                        <div class="hover-blue">
+                            <div class="profile-pic">
+                                <img src="./images/profile-11.jpg" >
+                            </div>
+                            <div class="notification-body">
+                                <b>Varun Nair</b> commented on your post
+                                <small class="text-muted">1 HOUR AGO</small>
+                            </div>
+                        </div>
+                        <div class="hover-blue">
+                            <div class="profile-pic">
+                                <img src="./images/profile-12.jpg" >
+                            </div>
+                            <div class="notification-body">
+                                <b>Marry Opmong</b> and 210 other liked your post
+                                <small class="text-muted">4 MINUTES AGO</small>
+                            </div>
+                        </div>
+                        <div class="hover-blue">
+                            <div class="profile-pic">
+                                <img src="./images/profile-13.jpg" >
+                            </div>
+                            <div class="notification-body">
+                                <b>Wilson Fisk</b> started following you
+                                <small class="text-muted"> 11 HOURS AGO</small>
+                            </div>
+                        </div>
+                    </div>
                   </a>
-                  
+
+
                   <a class="menu-item" id="notifications">
                     <span><i class="uil uil-home"></i></span> <h3>Communities</h3>
+                          <div id="notifications-popup">
+                            <div class="hover-blue">
+                                <div class="profile-pic">
+                                    <img src="images/tech-eng.png" >
+                                </div>
+                                <div class="notification-body">
+                                    <b>Technology Engineers</b> 
+                                    <small class="text-muted"><b>187k members</b></small>
+                                </div>
+                            </div>
+                            <div class="hover-blue">
+                                <div class="profile-pic">
+                                    <img src="images/human-resource.png" >
+                                </div>
+                                <div class="notification-body">
+                                    <b>Human Resource Department</b> 
+                                    <small class="text-muted"><b>93k members</b></small>
+                                </div>
+                            </div>
+                            <div class="hover-blue">
+                                <div class="profile-pic">
+                                    <img src="images/capital.png" >
+                                </div>
+                                <div class="notification-body">
+                                    <b>Capital managing People</b> 
+                                    <small class="text-muted"><b>63k members</b></small>
+                                </div>
+                            </div>
+                            <div class="hover-blue">
+                                <div class="profile-pic">
+                                    <img src="images/marketing.png" >
+                                </div>
+                                <div class="notification-body">
+                                    <b>Marketing Department</b>
+                                    <small class="text-muted"><b>103k members</b></small>
+                                </div>
+                            </div>
+                            <div class="hover-blue">
+                                <div class="profile-pic">
+                                    <img src="images/logistics1.png" >
+                                </div>
+                                <div class="notification-body">
+                                    <b>Logistics People</b> 
+                                    <small class="text-muted"> <b>142k member</b>s</small>
+                                </div>
+                             </div>
+                        </div> 
                   </a>
               
                   <a class="menu-item" id="messages-notifications">
@@ -61,13 +163,16 @@
             </div>
             </div>
         </div>
-        
+        <!-- <img src="bg-img.jfif" id="pichekiphoto"> -->
+        <!-- <img src="images/social network_5413579.png "src="images/—Pngtree—startup project mobile development team_7537125.png" id="pichekiphoto"> -->
     </div>
+    <img src="images/social network_5413579.png " id="pichekiphoto">
+
     <main id="room__lobby__container">
         
         <div id="form__container">
              <div id="form__container__header">
-                 <p>👋 Create or Join Room</p>
+                 <p>👋<b>Create or Join Room</b></p>
              </div>
  
  
@@ -91,7 +196,9 @@
             </form>
         </div>
      </main>
-    
+    <div class="daye">
+        
+    </div>
 </body>
 <script type="text/javascript" src="js/lobby.js"></script>
 </html>

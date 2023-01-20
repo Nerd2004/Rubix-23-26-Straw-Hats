@@ -1,12 +1,15 @@
 #form__container {
   width: 90%;
-    max-width: 600px;
+    max-width: 649px;
+    height: 418px;
     border-radius: 10px;
-    background-color:white;
+    background-color: white;
     position: fixed;
     top: 50%;
-    left: 50%;
+    left: 69%;
     transform: translate(-50%, -50%);
+    /* display:none; */
+    visibility: hidden;
 }
 
 #lobby__form {
@@ -15,11 +18,12 @@
 
 #form__container__header {
   border-radius: 10px 10px 0 0;
-  padding: 10px;
-  text-align: center;
-  background-color: rgb(55, 177, 247);
-  margin: 0;
-  font-size: 18px;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(55, 177, 247);
+    color:white;
+    margin: 0;
+    font-size: 18px;
   font-size: 300;
   line-height: 0;
 }
@@ -39,22 +43,22 @@
 
 .form__field__wrapper input {
   box-sizing: border-box;
-  color: #fff;
+  color:black;
   width: 100%;
   margin: 0;
   border: none;
   border-radius: 5px;
   padding: 16px 20px;
   font-size: 15px;
-  background-color: #3f434a;
+  background-color: whitesmoke;
 }
 
 .form__field__wrapper button[type='submit'] {
   margin-top: 32px;
   cursor: pointer;
-  background-color: #845695;
+  background-color: rgb(55, 177, 247);
   border: none;
-  color: #fff;
+  color: white;
   font-size: 16px;
   width: 100%;
   display: flex;
@@ -71,7 +75,7 @@
 }
 
 #avatar__selection {
-  margin-reight: 10px;
+  margin-right: 10px;
   display: flex;
   gap: 1em;
 }
@@ -87,4 +91,66 @@
 
 .avatar__option__selected {
   border: 3px solid #845695;
+}
+#pichekiphoto{
+  opacity: 0.3;
+  border-radius: 20px;
+  margin-left: 110px;
+}
+#nav-heading{
+  position: absolute;
+  right: 100px;
+  top:15px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: 'Noto Serif Toto', serif;
+  color: rgb(0, 16, 70);
+  margin-top: 0px;
+}
+#rocket{
+  position: absolute;
+  left: 143px;
+  top: -3px;
+  height: 64px;
+  width: 60%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#rocket-img{
+  width: 20px
+}
+.left{
+  margin-top: 30px;
+}
+#notifications-popup{
+  
+}
+#form__container{
+  border: 5px solid rgb(3, 0, 41);
+  border-radius: 17px;
+}
+#about{
+  position: absolute;
+  top:15px;
+  left:500px;
+  color: rgb(0, 26, 112);
+  
+}
+#about:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(3, 0, 41);
+}
+#contact{
+  position: absolute;
+  top:15px;
+  left:600px;
+  color: rgb(0, 25, 105);
+  
+}
+#contact:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(3, 0, 41);
+
 }
